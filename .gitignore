@@ -1,0 +1,10 @@
+# Terraform
+.terraform/
+terraform.tfstate
+terraform.tfstate.*
+*.tfvars
+.terraform.lock.hcl
+
+# OS
+.DS_Store
+Thumbs.db
