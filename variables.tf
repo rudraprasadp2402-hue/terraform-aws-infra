@@ -12,7 +12,7 @@ variable "project_name" {
 
 variable "my_ip_cidr" {
   type        = string
-  description = "Your public IP in CIDR format for SSH access (recommended). Example: 1.2.3.4/32"
+  description = "Your public IP in CIDR format for SSH access (recommended).
   default     = "0.0.0.0/0"
 }
 
